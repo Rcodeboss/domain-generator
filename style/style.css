@@ -1,0 +1,34 @@
+body,html{
+    background-color: rgb(163, 173, 184);
+    /* background-image: url(https://i.pinimg.com/originals/db/6d/db/db6ddbdf22b5f22e451b635f68995187.jpg); */
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+}
+
+.box{
+    display: flex;
+    align-content: center;
+    background-color: lightgray;
+    width: 35%;
+    /* height: 35%; */
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+#button{
+    background-color: blue;
+    padding: 6px 30px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 auto; 
+    align-content: center;
+
+}
